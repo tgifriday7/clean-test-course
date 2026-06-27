@@ -1,6 +1,7 @@
 describe('Shows Appeteasers', () => {
   it('Connect to Dev Server', () => {
     cy.visit('https://hangryhippo.quantic.host/');
+    //cy.visit('http://localhost:3000');
   });
   it('selects Handhelds', () => {
     //Navigate to Handhelds.  This makes sure that the link actually exists.
