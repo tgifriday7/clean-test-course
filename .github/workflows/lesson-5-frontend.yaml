@@ -21,8 +21,8 @@ jobs:
     steps:
       - name: ZAP Baseline Scan
         uses: zaproxy/action-baseline@v0.15.0
-      with:
-        target: 'https://hangryhippo.quantic.host'
+    with:
+      target: 'https://hangryhippo.quantic.host'
   deploy:
 #    needs: [function_test] (normally you'd not deploy until functional tests were complete)
     runs-on: ubuntu-latest
